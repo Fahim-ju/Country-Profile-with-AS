@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:padding="10dp"
+    android:background="#3D5FDA"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <AnalogClock
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/bangladeshButtonId"
+        android:text="Bangladesh"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/bangladesh"
+        android:backgroundTint="@color/teal_200"
+        />
+
+    <Button
+        android:id="@+id/indiaButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="India"
+        android:backgroundTint="@color/teal_200"
+        android:drawableLeft="@drawable/india"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/pakistanButtonId"
+        android:text="Pakistan"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/pakistan"
+        android:backgroundTint="@color/teal_200"
+        />
+
+
+</LinearLayout>
